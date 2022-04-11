@@ -1,9 +1,14 @@
 import React from 'react';
+import { View } from 'react-native';
 import RepositoryList from './RepositoryList';
-
+import AppBar from './AppBar';
 const Main = () => {
   return (
-    <RepositoryList/>
+    <View>
+      <AppBar/>
+      <RepositoryList/>
+    </View>
+
   );
 };
 
