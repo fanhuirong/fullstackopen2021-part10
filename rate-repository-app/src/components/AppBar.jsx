@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
+import { Link } from "react-router-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -13,9 +14,11 @@ const styles = StyleSheet.create({
 });
 
 const AppBar = () => {
-  return <TouchableWithoutFeedback >
+  return <View >
       <View style={styles.container}> Repositories </View>
-    </TouchableWithoutFeedback>;
+      {/* <Link to="/sign">Sign</Link> */}
+
+    </View>;
 };
 
 export default AppBar;
