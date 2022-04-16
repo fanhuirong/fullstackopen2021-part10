@@ -13,3 +13,7 @@ react-router v6 和 v5 区别
 
 
 `npm install formik`
+
+`npm install @apollo/client graphql`
+
+`npm install @expo/metro-config`
