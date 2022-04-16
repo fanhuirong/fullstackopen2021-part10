@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { Link } from "react-router-native";
 
 const styles = StyleSheet.create({
@@ -14,11 +14,11 @@ const styles = StyleSheet.create({
 });
 
 const AppBar = () => {
-  return <View >
-      <View style={styles.container}> Repositories </View>
-      {/* <Link to="/sign">Sign</Link> */}
-
-    </View>;
+  return (<View>
+      <Text>Welcome!</Text>
+      <Link to="/sign">sign</Link>
+    </View>)
+;
 };
 
 export default AppBar;
