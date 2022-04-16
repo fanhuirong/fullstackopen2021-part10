@@ -10,3 +10,6 @@
 react-router v6 和 v5 区别
 
 <https://reactrouter.com/docs/en/v6/upgrading/v5#relative-routes-and-links>
+
+
+`npm install formik`
